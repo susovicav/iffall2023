@@ -1,0 +1,64 @@
+html {
+    color: grey;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
+    max-width: 50%;
+  }
+
+span {
+    font-weight: normal;
+    color:rgb(177, 177, 177);
+    font-size: 0.75em;
+    }
+span2{
+    font-style: italic;
+    color:rgb(149, 178, 205);
+    font-size: 0.75em;
+}
+header {
+    color: black
+    }
+
+  h2, h3{
+    color: rgb(82, 82, 82)
+  }
+
+  h3 {
+    font-size: 0.5em;
+}
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+.wide { 
+letter-spacing: 0.10em;
+}
+.squished{
+letter-spacing: -0.10em;
+}
+
+.under{
+text-decoration: underline;
+}
+.line {
+text-decoration: line-through;
+}
+.over{
+text-decoration: overline;
+}
+
+.upper{
+text-transform: uppercase;
+}
+.lower{
+text-transform: lowercase;
+}
+.cap{
+text-transform: capitalize;
+}
