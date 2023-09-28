@@ -1,0 +1,61 @@
+.grid img{
+    width: 150px;
+}
+
+.grid{
+    padding: 0;
+}
+
+.grid li{
+    display: block;
+} 
+
+.using-floats li{
+    float: left; 
+}
+
+.using-floats::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grid li{
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 90%;
+}
+
+/* --------------------------visual line break for inline block grid below --------------------------------------------- */
+
+
+.using-inline-block li{
+    display: inline-block;
+}
+
+.using-inline-block{
+ font-size: 0;
+} 
+
+
+/* --------------------------visual line break for flex grid below --------------------------------------------- */
+.using-flex{
+display: flex;
+flex-wrap: wrap;
+}
+
+/* --------------------------visual line break for  grid below --------------------------------------------- */
+
+.using-grid{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.using-grid li{
+    width: 100%;
+}
