@@ -1,0 +1,72 @@
+
+
+/* Create a selector for .static-example .positioned-element, 
+which should select the grey square above. 
+Confirm it's working by setting background-color: green; to change the square's color.
+
+Set left: 100px; for the square. You'll see no change, because it is, by default, position: static;. */
+
+
+.static-example .positioned-element{
+    background-color: green;
+    left: 100px;
+}
+
+/*Create a new selector for .relative-example .positioned-element, and change this square to background-color: lightblue;
+Set position: relative;
+Set left: 100px;
+Set top: 50px;*/
+/*Find your selector for the lightblue box, and set z-index: -1;.*/
+
+.relative-example .positioned-element{
+    background-color: lightblue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    z-index: -1;
+}
+
+/*Create a new selector for the square in this section. Make it red, and position: absolute;.*/
+/*Add the rule top: 0;. Don't be alarmed when the square disappears!*/
+
+.absolute-example .positioned-element{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*Create a selector for .absolute-example, which is the class for this entire section.
+Set position: relative; for the section. Note that the section itself doesn't change 
+it's position, because relative still follows the document flow. But it does make this 
+section a positioning-parent. For the red box itself, set right: 0;. This will position
+it 0px from the right side of the parent container.*/
+
+.absolute-example{
+    position: relative;
+}
+
+/*Select the square in this section. Make it purple.
+Set position: fixed;.
+Set top: 0; and left: 0;.*/
+/*Add width: 100%; to the selector for the purple square.*/
+/*Find your selector for the purple navbar. Set z-index: 9999;*/
+
+.fixed-example .positioned-element{
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*Select the square in this section. Make it orange.
+Set top: 50px;*/
+
+.sticky-example .positioned-element{
+background-color: orange;
+top: 50px;
+position: sticky;
+}
