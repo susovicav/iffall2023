@@ -1,0 +1,365 @@
+/* example of a selector: a#btn_spotify */
+/* <i class="fa-solid fa-bottle fa-bounce" style="color: #ffffff;"></i> */
+/* some symbols
+	279C    ARROW
+    2603	SNOWMAN
+*/
+
+/* short-cut to make something look like a button
+text-decoration: none;
+background-color: #aa0000;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+border-radius: 10px; */
+
+/* --------------------------------COLA------------------------------------------------- */
+
+a#buttonCOLA{
+display: inline-block;
+box-sizing: border-box;
+margin-top: 100px;
+text-decoration: none;
+background: linear-gradient(45deg,  #d232ff 0%,#28a5cb 100%);
+color: white;
+font-size: 30px;
+font-weight: 600;
+padding: 15px 30px;
+border-radius: 50px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+transition: all 1s;
+}
+
+
+a#buttonCOLA:hover{ 
+background: #F70000;
+}
+
+a#buttonCOLA:active{ 
+    transform: scale(1%);
+    }
+/* ---------------------------BISS------------------------------------------------------ */
+/* NOTE if you hover over the edge of the box, it's going to glitch out, idk how to fix that */
+
+
+a#buttonBISS
+{margin-top: 70px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+border: 2px solid #d18b36;
+background-color: white;
+color:#d18b36;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+padding: 15px 30px;
+border-radius: 1px;
+
+/*.bissTRUFFLE{visibility: visible;}
+.bissTEXT{display: none;}*/
+
+transition: all 0.75s;}
+
+.bissTRUFFLE{visibility: visible;}
+.bissTEXT{display: none;}
+
+.trufftruff{
+    width: 55%;
+    padding: 0;
+}
+
+a#buttonBISS:hover{
+    background-color:rgb(209, 139, 54, 0.5);
+    color: white;
+    padding: 15px 30px;
+    font-size: 40px;
+  /* .bissTRUFFLE{display:none;}
+    .bissTEXT{display: inherit;
+    visibility: visible;}*/
+
+}
+
+a#buttonBISS:hover .bissTRUFFLE{display:none;}
+a#buttonBISS:hover .bissTEXT{display: inherit;
+    visibility: visible;}
+
+    a#buttonBISS:active{
+        background-color: rgb(225, 200, 103);
+        transition: 0s;
+        border: 2px solid rgb(225, 200, 103);
+    }
+       
+
+
+
+
+
+/* ---------------------------MOO------------------------------------------------------ */
+a#buttonMOO
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+background-color:#107c5d;
+color: white;
+font-family: 'Nunito', sans-serif;
+letter-spacing: 0.05rem;
+font-size: 20px;
+padding: 30px 50px;
+border-radius: 5px;
+
+box-shadow: 0px 0px 0px 132px rgba(75,89,109,1) inset;
+-webkit-box-shadow: 0px 0px 0px 132px rgba(75,89,109,1) inset;
+-moz-box-shadow: 0px 0px 0px 132px rgba(75,89,109,1) inset;
+
+transition: all 1s;
+}
+
+
+
+a#buttonMOO:hover{
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,1) inset;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(255,255,255,1) inset;
+    -moz-box-shadow: 0px 0px 0px 5px rgba(255,255,255,1) inset;
+   
+}
+
+a#buttonMOO:active{
+  font-weight: bold;
+  transition: 0s;
+}
+
+
+
+
+/* ---------------------------Fitbit-------------------------------------------------- */
+a#buttonFITBIT
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+background-color: #05c3d8;
+color: white;
+font-size: 20px;
+padding: 15px 30px;
+border-radius: 30px;
+transition: all 0.3s;
+}
+
+a#buttonFITBIT:hover{
+    border-radius: 2px;
+    padding: 15px 50px;
+    background-color: #efdcb1;
+    letter-spacing: 0.75rem;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+a#buttonSTJUDE
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+border: 2.25px solid #d11947;
+background-color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#d11947;
+font-size: 20px;
+padding: 15px 30px;
+border-radius: 5px;
+transition: all 0.5s;
+
+}
+
+a#buttonSTJUDE:hover{
+    border: none;
+    background-color:#135cb0; 
+    color: white;
+    letter-spacing: 0.05rem;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.85);
+}
+
+a#buttonSTJUDE:active{
+    opacity: 50%;
+    transition: 0s;
+}
+
+
+/* -----------------------------------OLDNAVY------------------------------------------------- */
+
+a#buttonOLDNAVY
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+border: 2px solid rgb(0, 55, 100);
+font-family: 'Nunito', sans-serif;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bolder;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 55, 100);
+font-size: 20px;
+padding: 10px 50px;
+border-radius: 10px;
+transition: all 0.2s; }
+
+a#buttonOLDNAVY:hover{
+    border: 1.5px solid rgb(3, 142, 255);
+    background-color: rgb(0, 55, 100);
+    color: rgb(255, 255, 255);
+}
+
+a#buttonOLDNAVY:active{
+    text-decoration-line: underline;
+    transition: 0s;
+}
+
+
+/* --------------------------------KITTENS---------------------------------------------------- */
+
+a#buttonKITTENS
+{margin-top: 80px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+background-color: #000000;
+color: white;
+font-family: 'Bebas Neue', sans-serif;
+font-size: 20px;
+padding: 15px 30px;
+border-radius: 0px;
+transition: all 0.2s;
+}
+
+
+a#buttonKITTENS:hover{
+    background: linear-gradient(to right,  #ff0000 1%,#ffe100 100%);
+    color: black;
+    padding: 15px 5px;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+a#buttonKITTENS:active{
+color: white;
+transition: color 0s;
+}
+
+/* ---------------------------Apple------------------------------------ */
+a#buttonAPPLE
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+background-color: #06c;
+color: white;
+font-size: 20px;
+padding: 15px 20px 15px 40px;
+border-radius: 300px;
+/*.apple_img{visibility: collapse;}*/
+transition: all 0.4s;
+}
+
+.apple_img{visibility: collapse;}
+
+a#buttonAPPLE:hover
+{
+opacity: 90%;
+padding: 15px 20px;
+/*.apple_img{visibility: visible;}*/
+}
+
+a#buttonAPPLE:hover .apple_img{visibility: visible;}
+
+.apple_img{
+    width: 8%;
+}
+/* -----------------------------SAMSUNG---------------------------------- */
+
+a#buttonSAMSUNG
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+background-color:#007aff;
+color: white;
+font-family: 'Urbanist', sans-serif;
+font-weight:500;
+letter-spacing: 0.05rem;
+font-size: 20px;
+padding: 15px 30px;
+border-radius: 20px;
+transition: all 0.1s;}
+
+a#buttonSAMSUNG:hover{
+    font-size: 22px;
+    border: 4px dotted black;
+    background: white;
+    color: black;
+}
+
+a#buttonSAMSUNG:active{
+    background-color: #e2e2e2;
+    opacity: 50%;
+    transition: 0s;
+}
+
+/* -----------------------------LYFT-----warning: it's a mess down below this point-------------------------------------------------- */
+
+
+a#buttonLYFT
+{margin-top: 100px;
+display: inline-block;
+box-sizing: border-box;
+text-decoration: none;
+background-color:rgb(82, 59, 228);
+color: white;
+font-size: 20px;
+padding: 10px 30px;
+font-family: 'Lato', sans-serif;
+border-radius: 300px;
+/* ------------------------------- */
+/*.lyft{visibility: visible;}
+.ride{ display: none;}*/
+/* old code that worked in chrome and not safari. not sure why */
+/* ------------------------------- */
+transition: background-color, font-weight, color .5s;
+
+}
+
+.lyft{visibility: visible;}
+.ride{ display: none;}
+
+a#buttonLYFT:hover .lyft{display:none;}
+a#buttonLYFT:hover .ride{ display: inherit;
+ visibility:visible;}
+
+a#buttonLYFT:hover{
+    /* ------------------------------- */
+    /*.lyft{display:none;}
+    .ride{ display: inherit;
+        visibility:visible;}*/
+    /* old code that worked in chrome and not safari. not sure why */
+    /* ------------------------------- */
+    font-weight: bolder;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    }
+
+    a#buttonLYFT:active{
+        color: rgb(255, 61, 200);
+            transition: color 0s;
+    }
+
+
+
+
+
+/* --------------------------------------------------------------------------------- */
