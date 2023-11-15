@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(88, 115, 88);
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    font-weight: 700;
+}
+
+.glassMAIN{
+    width:50%;
+}
