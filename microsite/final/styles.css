@@ -1,0 +1,695 @@
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+/*----------------------------------------Main elements---------------------------------------*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.bodyMAIN, .bodySOURCES{
+    background-color: rgb(32, 51, 32);
+
+}
+
+.images{
+    /*this class is only applied to one div, other images are not in divs*/
+text-align: center;
+}
+
+
+body, footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgb(207, 214, 197);
+}
+
+
+.bodyDIV{
+    margin-left: 0;
+    margin-right: 0;
+}
+footer{
+    line-height: 130%;
+    background-color: rgb(0, 0, 0, 0.4);
+    width: 99%;
+    height:auto;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    bottom: 0px;
+    margin-top: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+
+
+    /*....................................*/
+    /*to be honest, I don't understand why I need webkit here and why I need to say blur twice... 
+    but it fixed the issue for not showing up in Safari!
+    This was helpful: https://www.reddit.com/r/css/comments/12jhh10/solution_backdrop_filter_blur_doesnt_work_in/ */
+    /*....................................*/
+
+    padding: 3% 0% 3% 3%;
+}
+
+
+
+.bodyDIV{
+    margin: 3%;
+}
+
+
+.mainSECTION{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*----------------------------------Header and Navigation-------------------------------------*/
+
+.titleCARD, .linkCARD{
+font-family: 'Cinzel', serif;
+}
+
+.titleCARD{
+    width:100%;
+}
+
+
+.titleCARD:hover, .linkCARD:hover{
+    background-color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    transition-duration: 1s;
+    /*maybe add click threshold so when you only hover over a certain area it will change because it shows two boxes right now*/
+}
+
+nav{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -50px;
+}
+
+.sectionNAV{
+    margin-top: -2%;
+    width: auto;
+    height: auto;
+}
+
+.titleCARD{
+    background-color: rgb(20, 22, 17);
+    color: white;
+    padding: 3% 1% 4% 1%;
+    text-align: center;
+    font-size: 7rem;
+
+}
+
+.linkCARD{
+    text-decoration:none;
+    color: white;
+    background-color: rgb(20, 22, 17);
+}
+
+.linkNAV, .linkDISCOVER{
+    width: auto;
+    height: auto;
+    background-color: rgba(97, 111, 104, 0.25);
+    color:rgb(168, 164, 164);
+    font-family: 'Raleway', sans-serif;
+    padding: 1% 3% 1% 3%;
+    text-decoration: none;
+    margin: 0% 1% 0% 1%;
+}
+
+
+
+/*.linkNAV:hover{
+ 
+    letter-spacing: 1px;
+     transition: 0.5s;
+     transition-property: letter-spacing, padding;
+ }*/
+ 
+
+   .linkDISCOVER:hover, .linkNAV.aboutNAV:hover, .linkNAV.contempNAV:hover, .linkNAV.aboutNAV:hover, .linkNAV.historyNAV:hover, .linkNAV.sourcesNAV:hover{
+   background-image: url(./images/cracked-transparent.png);
+background-size: 150%;
+background-position: center;
+}
+
+
+
+.discover{
+    text-align: center;
+}
+
+
+h1{
+   font-size: 2.75rem;
+   font-weight: 100;
+   padding-bottom: 2%;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.imageSECTIONone{
+    text-align: center;
+}
+
+
+
+.containerHISTORY{
+    padding: 1% 0% 1% 0%;
+}
+
+
+.bodyHISTORY, .bodyCONTEMP{
+   background-color: black;
+}
+
+
+.aboutBOX{
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: rgba(211, 255, 232, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    margin: 3% 2% 2% 44%;
+}
+
+.bodyABOUT{
+    background-image: url(images/sickPERSON.webp);
+    background-size: cover;
+    background-position: 0px 0px;
+}
+
+.bodyCONTEMP{
+    background-image: url(images/handGLASS.jpeg);
+    background-size: cover;
+    background-position-x: center; /*-600px was another option*/
+    background-position-y: center;
+}
+
+.contempBOX{
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: rgba(241, 255, 248, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 5%;
+    margin: 3% 2% 2% 44%;
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------Images--------------------------------------------------*/
+
+.imageINTRO{
+    width: 50%;
+    text-align: center;
+    padding: 2%;
+  
+}
+
+.src{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.src:visited{
+    color:rgb(175, 175, 144);
+}
+
+.src:hover{
+    color:rgb(224, 224, 189);
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    transition: 1s;
+    transition-property: letter-spacing;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*------------------------------------HISTORY section--------------------------------------------------*/
+
+
+.charles, .george{
+    width: 70%;
+    height:auto;
+    margin:auto;
+    padding: 2% 0% 4% 0%;
+}
+
+
+.princess, .tchai{
+    width: 105%;
+}
+
+.princess, .tchai{
+    padding: 2% 0% 2% 0%;
+}
+
+
+.pHISTORY{
+    margin: 3% 2% 2% 44%;
+}
+
+.containerHISTORY.princess, .containerHISTORY.tchai{
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding: 10% 0% 30% 0%;
+/*................................note...............................*/
+/*combined these two properties into one container for both since 
+they both had "background-repeat" and "background-size" etc the same*/
+/*...................................................................*/
+}
+
+
+.containerHISTORY.tchai{
+    background-image: url(./images/tchaikovsky.jpg);
+}
+
+.containerHISTORY.princess{
+    background-image: url(./images/princess.jpg);
+    
+}
+
+.pHISTORY.blur{
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    padding: 5%;
+    margin: 3% 2% 2% 44%;
+}
+
+.pHISTORY.blur:hover{
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);  
+    transition: 0.5s; 
+}
+
+/*------Sources------*/
+
+.h1SOURCES{
+    padding-top: 5%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+
+
+/*-----media queries below------*/
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+/*......................................................................................*/
+/*....................................ALL...............................................*/
+
+ @media(max-width:420px) {
+    .bodyDIV, .bodyABOUT, .bodyCONTEMP, .bodyHISTORY, .bodySOURCES, .bodyMAIN{
+        font-size: 16px;}
+
+}
+
+@media(min-width:421px) {
+    .bodyDIV, .bodyABOUT, .bodyCONTEMP, .bodyHISTORY, .bodySOURCES, .bodyMAIN{
+        font-size: 18px;}
+
+}
+
+
+/*.............................................................................................*/
+/*....................................Navigation buttons.......................................*/
+
+
+@media(max-width:617px){
+    nav{
+        line-height: 45px;
+    }
+
+    .sectionNAV{
+        margin-top: -30px;
+    }
+}
+
+@media(min-width:0px) and (max-width:320px){
+
+    .sectionNAV{
+        margin-top: -70%;
+    }
+}
+
+@media(min-width:321px) and (max-width:500px){
+
+    .sectionNAV{
+        margin-top: -30%;
+    }
+}
+
+@media(min-width:536px) and (max-width:617px){
+
+    .sectionNAV{
+        margin-top: -18%;
+    }
+
+}
+
+@media(min-width: 617px) and (max-width:619px){
+
+    .sectionNAV{
+        margin-top: -15%;
+    }
+
+}
+
+
+@media(min-width: 620px) and (max-width:635px){
+
+    .sectionNAV{
+        margin-top: -15%;
+    }
+
+}
+
+
+@media(min-width:501px) and (max-width:535px){
+
+    .sectionNAV{
+        margin-top: -25%;
+    }
+
+}
+/*.............................................................................................*/
+/*....................................Intro Page...............................................*/
+
+
+@media(max-width:1190px){
+    .titleCARD{
+        font-size: 5rem;
+    }
+}
+@media(max-width:1165px){
+    .titleCARD{
+        font-size: 5rem;
+        padding-bottom: 6%;
+    }
+    .linkDISCOVER:hover{
+        background-position-x: -600px;
+    }
+
+}
+
+@media(max-width:832px){
+    .titleCARD{
+        font-size: 3rem;
+        padding-bottom: 8%;
+    }
+    .imageINTRO{
+        width:70%;
+        height:70%;
+    }
+    .mainSECTION{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .linkDISCOVER:hover{
+        background-position-x: -500px;
+    }
+}
+
+@media(max-width:610px){
+    .imageINTRO{
+        width:100%;
+        height:100%;
+    }
+    .mainSECTION{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .linkDISCOVER:hover{
+        background-position-x: -400px;
+    }
+    .titleCARD{
+        padding-bottom: 9%;
+    }
+}
+
+@media(min-width:0px) and (max-width:490px){
+    .mainSECTION{
+        font-size: 16px;
+    }
+
+    .mainSECTION{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    footer{
+        font-size: 9px;
+    }
+    .linkDISCOVER:hover{
+        background-position-x: -200px;
+    }
+
+}
+
+
+@media(min-width:535px) and (max-width:635px){
+    .titleCARD{
+        padding-bottom: 20%;
+    }
+}
+
+@media(min-width:320px) and (max-width:535px){
+
+    .titleCARD{
+        padding-bottom: 28%;
+    }
+
+    .bodyDIV, .contempBOX{
+        padding-bottom: 40%;
+       }
+
+}
+
+@media(min-width:0px) and (max-width:320px){
+
+    .titleCARD{
+        padding-bottom: 70%;
+    }
+   .bodyDIV{
+    padding-bottom: 30%;
+   }
+}
+
+
+
+/*.............................................................................................*/
+/*....................................Margins for About and Contemp............................*/
+
+/* NOTE: This is a specific media section made for organization, I'd rather keep it separate from history media*/
+
+@media(max-width:1190px)
+{.aboutBOX, .contempBOX{
+    margin: 3% 10% 2% 30%}
+}
+   
+
+@media(min-width:320px) and (max-width:720px){
+    .aboutBOX, .contempBOX{
+        margin: 16% 20% 2% 10%;
+       
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+    .aboutBOX, .contempBOX{
+        margin: 2%;
+       
+        
+    }
+}
+
+/*--not based off history margins below this point---*/
+
+@media(min-width:721px) and (max-width:1189px){
+    .aboutBOX, .contempBOX{
+        margin: 5% 10% 2% 30%;
+       
+    }
+}
+
+
+/*.............................................................................................*/
+/*....................................History Media..............................................*/
+
+@media(max-width:1190px){
+   
+    .pHISTORY.blur{
+        margin: 3% 10% 2% 30%;
+    }
+    
+    .containerHISTORY.princess, .containerHISTORY.tchai {
+        background-position-x: 20%;
+    }
+    }
+    
+    @media(max-width:945px){
+    
+        .george, .charles{
+            width: 90%;
+        }
+    
+    }
+    
+    
+    @media(max-width:584px){
+        .containerHISTORY.princess, .containerHISTORY.tchai {
+            background-position-x: 40%;
+        }
+    
+    
+    .pHISTORY{
+        margin:0;
+    }
+    }
+    
+    
+    @media(min-width:320px) and (max-width:720px){
+        .pHISTORY.blur{
+            margin: 3% 20% 2% 10%;
+        }
+    }
+    @media(min-width:0px) and (max-width:320px){
+        .pHISTORY.blur{
+            margin: 2%;
+            
+        }
+    }
+
+/*.............................................................................................*/
+/*....................................Contemp Media..............................................*/
+/*.............................................................................................*/
+/*.............................................................................................*/
+/* Because Contemporary is such a long word, it began to stick out of the box at smaller screen widths, 
+so I had to make the word smaller*/
+
+@media(min-width:0px) and (max-width: 347px){
+    .H1contemp{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media(min-width:348px) and (max-width: 510px){
+    .H1contemp{
+        font-size: 2rem;
+    }
+}
+
+
+/*.............................................................................................*/
+/*....................................Sources Media..............................................*/
+
+
+@media(min-width:0px) and (max-width: 320px){
+    .h1SOURCES{
+        margin-top: 40%;
+    }
+}
+
+@media(min-width:390px) and (max-width: 543px){
+    .h1SOURCES{
+        margin-top: 20%;
+    }
+}
+
+@media(min-width:544px) and (max-width: 635px){
+    .h1SOURCES{
+        margin-top: 8%;
+    }
+}
+
+
+
+
+/*.............................................................................................*/
+/*.............................................................................................*/
+/*.............................................................................................*/
+/*For the intro card to not expand as much since there is no navigation there*/
+
+
+@media(max-width:1165px){
+    .titleCARD.introPAGE{
+        padding-bottom: 6%;
+}
+}
+
+@media(max-width:832px){
+    .titleCARD.introPAGE{
+        padding-bottom: 8%;
+    }
+}
+
+@media(max-width:610px){
+    .titleCARD.introPAGE{
+        padding-bottom: 9%;
+    }
+}
+
+
+
+@media(min-width:0px) and (max-width:320px){
+
+    .titleCARD.introPAGE{
+        padding-bottom: 27%;
+    }
+}
+
+@media(min-width:320px) and (max-width:535px){
+
+    .titleCARD.introPAGE{
+        padding-bottom: 15%;
+    }
+}
+
+
